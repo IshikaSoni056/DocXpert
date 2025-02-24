@@ -1,0 +1,21 @@
+{
+  "name": "fileconverter",
+  "version": "1.0.0",
+  "description": "file converter app",
+  "license": "ISC",
+  "author": "Ishika",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "docx-pdf": "^0.0.1",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "pdfkit": "^0.16.0"
+  }
+}
