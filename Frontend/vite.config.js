@@ -6,4 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: '/DocXpert/',
   plugins: [react(),  tailwindcss()],
+  base: "/DocXpert"
 })
